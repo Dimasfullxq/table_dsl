@@ -24,7 +24,7 @@ table do # main block, builds <table> </table>
   set_styles('background-color': 'lightgray') # set styles
 
   tr do # table row <tr> </tr>
-    set_styles("background-color": "lightblue")
+    set_styles('background-color': 'lightblue')
     th do # table head <th> </th>
       'Header 1'
     end
@@ -41,15 +41,15 @@ table do # main block, builds <table> </table>
     td do
       raw_string {'<p>Data 0</p>' }
     end
-    td { "Data 1" }
-    td { "Data 2" }
-    td { "Data 3" }
+    td { 'Data 1' }
+    td { 'Data 2' }
+    td { 'Data 3' }
   end
 
   tr do
-    td { "Data 4" }
-    td { "Data 5" }
-    td { "Data 6" }
+    td { 'Data 4' }
+    td { 'Data 5' }
+    td { 'Data 6' }
   end
 
   tr do
