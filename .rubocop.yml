@@ -1,0 +1,46 @@
+require:
+  - rubocop-rspec
+  - rubocop-performance
+
+AllCops:
+  NewCops: enable
+  TargetRubyVersion: 3.1.2
+  Exclude:
+    - bin/**/*
+    - spec/fixtures/**/*
+
+# Style -----------------------------------------------------------------------
+
+Style/Documentation:
+  Enabled: false
+
+Style/MixinUsage:
+  Exclude:
+    - script.rb
+
+# Metrics ---------------------------------------------------------------------
+
+Metrics/CyclomaticComplexity:
+  Exclude:
+    - spec/**/*.rb
+
+Metrics/PerceivedComplexity:
+  Exclude:
+    - spec/**/*.rb
+
+Metrics/BlockLength:
+  Exclude:
+    - spec/**/*.rb
+    - script.rb
+
+
+# Layout ----------------------------------------------------------------------
+
+Layout/LineLength:
+  Max: 120
+
+
+# Gemfile ---------------------------------------------------------------------
+
+Gemspec/DevelopmentDependencies:
+  Enabled: false
