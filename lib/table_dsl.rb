@@ -5,7 +5,6 @@ require_relative 'table_dsl/th'
 require_relative 'table_dsl/td'
 require_relative 'table_dsl/tr'
 require_relative 'table_dsl/table'
-require 'pry'
 
 module TableDsl
   module Builder
