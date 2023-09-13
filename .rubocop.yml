@@ -44,3 +44,14 @@ Layout/LineLength:
 
 Gemspec/DevelopmentDependencies:
   Enabled: false
+
+# RSpec -----------------------------------------------------------------------
+
+RSpec/NestedGroups:
+  Max: 20
+
+# Lint ------------------------------------------------------------------------
+
+Lint/EmptyBlock:
+  Exclude:
+   - spec/**/*.rb

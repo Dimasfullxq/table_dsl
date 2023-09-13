@@ -118,5 +118,5 @@ end
     </tr>
 </table>
 ```
-## You can play with options by modifying ```script.rb``` and running ``` ruby script.rb ``` in your console.
+## You can play with options by modifying ```script.rb``` and running ``` ruby script.rb ``` in your console and then check ``` output.html ```
 
